@@ -1,0 +1,50 @@
+.album-shelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album-container {
+    position: relative;
+    transition: box-shadow .3s;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.album-container:hover .album-mask {
+    opacity: 1;
+}
+
+.album-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    // Only display on hover
+    opacity: 0;
+    transition: opacity 0.3s;
+
+    // Center the content
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-text {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.white {
+    color: rgba(255, 255, 255, 0.5);
+}
