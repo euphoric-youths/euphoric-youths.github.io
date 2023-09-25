@@ -15,7 +15,7 @@ layout: home
                 <li>
                     <a rel="me" href="{{ platform.link }}" target="_blank" title="{{ platform.name }}" class="button">
                         <svg class="svg-icon white">
-                            <use xlink:href="/euphoric-web/assets/minima-social-icons.svg#{{ platform.name }}"></use>
+                            <use xlink:href="/assets/minima-social-icons.svg#{{ platform.name }}"></use>
                         </svg>
                     </a>
                 </li>
