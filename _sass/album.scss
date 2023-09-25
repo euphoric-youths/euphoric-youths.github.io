@@ -1,12 +1,13 @@
+// The layout that contains all of the albums
 .album-shelf {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+// The container for each album
 .album-container {
-    position: relative;
-    transition: box-shadow .3s;
+    position: relative; // For the mask
     height: 200px;
     width: 200px;
     margin: 10px;
@@ -35,16 +36,9 @@
     align-items: center;
 }
 
+// The album names
 .album-text {
     color: white;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.button {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.white {
-    color: rgba(255, 255, 255, 0.5);
 }
