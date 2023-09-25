@@ -7,7 +7,7 @@ layout: home
 <div class="album-shelf">
     {% for album in site.data.albums %}
     <div class="album-container">
-        <img src="{{ album.cover }}">
+        <img src="{{ album.cover }}" alt="{{ album.name }}">
         <div class="album-mask">
             <div class="album-text">{{ album.name }}</div>
             <ul class="social-media-list">
