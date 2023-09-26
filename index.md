@@ -14,7 +14,7 @@ layout: home
             <ul class="social-media-list">
                 {% for platform in album.platforms %}
                 <li>
-                    <a href="{{ platform.link }}" target="_blank" title="{{ platform.name }}" style="background-color:black;opacity:0.5">
+                    <a href="{{ platform.url }}" target="_blank" title="{{ platform.name }}" style="background-color:black;opacity:0.5">
                         <svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#{{ platform.name }}" /></svg>
                     </a>
                 </li>
