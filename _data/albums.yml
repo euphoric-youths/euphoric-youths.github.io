@@ -1,15 +1,15 @@
 - name: Euphoriants Vol.1
   cover: assets/images/albums/euphoriants-vol-1.jpg
   platforms:
-  - name: applemusic
-    url: https://music.apple.com/albums/euphoriants-vol-1/1708657320
-  - name: spotify
-    url: https://open.spotify.com/albums/0OHLiKurPt6lufpFWWWXSR
-  - name: youtube
-    url: https://www.youtube.com/playlist?list=OLAK5uy_m3WEUlTNlS5hPviiVze8iFwDnt7c2Nf0I
+    - name: applemusic
+      url: https://music.apple.com/album/euphoriants-vol-1/1708657320
+    - name: spotify
+      url: https://open.spotify.com/album/0OHLiKurPt6lufpFWWWXSR
+    - name: youtube
+      url: https://www.youtube.com/playlist?list=OLAK5uy_m3WEUlTNlS5hPviiVze8iFwDnt7c2Nf0I
 
 - name: YOASOBI - アドベンチャー (Euphoric Youths Remix)
   cover: assets/images/albums/yoasobi-adventure-euphoric-youths-remix.jpg
   platforms:
-  - name: soundcloud
-    url: https://soundcloud.com/euphoric-youths/yoasobi-adventure-euphoric-youths-remix
+    - name: soundcloud
+      url: https://soundcloud.com/euphoric-youths/yoasobi-euphoric-youths-remix
